@@ -1,16 +1,6 @@
-import { useState } from 'react'
-
+import Chai from "./test";
 function App() {
-
-
-  return (
-    <>
-      <div>
-        <h1> Hello react </h1>
-      </div>
-  
-    </>
-  )
+  return <Chai />;
 }
 
-export default App
+export default App;
